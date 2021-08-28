@@ -608,7 +608,7 @@ section {
 	border: none;
 	outline: none;
 	position: absolute;
-	top: 60px;
+	top: 10px;
 	z-index: 1000;
 	display: none;
 }
@@ -923,9 +923,15 @@ footer {
 		height: 150px;
 	}
 
+	.portfolio {
+		height: 450px;
+	}
+
 	.portfolio-container {
+		
 		flex-direction: column;
 		padding-left: 0;
+		border: 1px solid red;
 	}
 
 	.slider-item__hover {

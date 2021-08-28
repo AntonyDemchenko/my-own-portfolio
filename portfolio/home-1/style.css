@@ -924,14 +924,12 @@ footer {
 	}
 
 	.portfolio {
-		height: 450px;
+		height: 500px;
 	}
 
-	.portfolio-container {
-		
+	.portfolio-container {		
 		flex-direction: column;
 		padding-left: 0;
-		border: 1px solid red;
 	}
 
 	.slider-item__hover {

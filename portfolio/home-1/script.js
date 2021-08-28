@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$('.menu-burger').click(function(event){
 		$('.menu-burger, .menu, .lang-menu').toggleClass('active');
 		$('body').toggleClass('lock');
@@ -6,7 +7,7 @@ $(document).ready(function(){
 	});
 
 	$('.menu li a').click(function(event) {
-        $('.menu-burger, .menu').removeClass('active');
+        $('.menu-burger, .menu, .lang-menu').removeClass('active');
         $('body').removeClass('lock');
     });
 

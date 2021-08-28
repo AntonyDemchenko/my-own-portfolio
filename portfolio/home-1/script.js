@@ -30,13 +30,13 @@ $(document).ready(function(){
   		fade:false,
   		vertical:false,
   		swipe:true,
+  		appendDots: $('.portfolio-container'),
   		responsive: [
 		    {
 		      breakpoint: 1025, // - от какой ширины изменять настройки(1024 и ниже)
 		      settings: {
 		        // вносим изменения на ширине 1024 и ниже 
 		        arrows:false,
-		        appendDotsto: $('.portfolio-container'),
 		      }
 		    },
 		    {
@@ -45,16 +45,13 @@ $(document).ready(function(){
 		      	dots:true,
 		        arrows:false,
 		        centerMode: true,
-		        appendDotsto: $('.portfolio-container'),
 		        variableWidth: true,
 		        swipe: true,
 		      }
 		    }
 		  ]
   	});
-
-  	$('.slick-dots').detach().appendTo('.portfolio-container');
-
+  	
   	$(window).scroll(function() {
 		if ($(this).scrollTop() > 1){
 		$('header').addClass("sticky");
@@ -98,7 +95,6 @@ $(document).ready(function(){
 	    	});
 	    });
  	 }
-
 
 	$('.slider').on('click', '.slider-item__btn_watch', function() {
     	var ind = ($(this).parent().parent().parent().index());

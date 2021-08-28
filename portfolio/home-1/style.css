@@ -275,6 +275,7 @@ section {
 	/*padding: 0 2%;*/
 	height: 100%;
 	width: 100%;
+	position: relative;
 }
 
 .side-title {
@@ -347,11 +348,13 @@ section {
 	opacity: 0;
 	cursor: pointer;
 	padding: 5% 0;
+	visibility: hidden;
 }
 
 .slider-item:hover .slider-item__hover{
 	transition: 0.5s ease-in-out;
 	opacity: 1;
+	visibility: inherit;
 }
 
 .slider-item__text {
@@ -392,6 +395,7 @@ section {
 	outline: none;
 	width: 60px;
 	height: 60px;
+	padding: 0;
 }
 
 .slider-item__btn img {
@@ -595,6 +599,23 @@ section {
 	cursor: pointer;
 }
 
+.slider-btn {
+	width: 60px;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	outline: none;
+	position: absolute;
+	top: 60px;
+	z-index: 1000;
+}
+.slider-btn__img {
+	width: 100%;	
+}
+
+.slider-btn:hover {
+	display: none;
+}
+
 .about {
 	flex-grow: 1;
 	width: 100%;
@@ -777,6 +798,9 @@ footer {
 		height: 400px;
 		width: 500px;
 	}
+	.slick-slider {
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 767px){
@@ -941,13 +965,11 @@ footer {
 
 	.slider-item__btns {
 		width: 100%;
-		/*margin-top: 20px;*/
 	}
 
 	.slider-item__btn {
 		width: 50px;
 		height: 50px;
-
 	}
 
 	.slider-item__btn img {
@@ -957,7 +979,6 @@ footer {
 
 	.slider-item__remark {
 		font-size: 10px;
-
 	}
 
 	.popup-slider__big-img {

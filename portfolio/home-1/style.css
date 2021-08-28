@@ -439,6 +439,8 @@ section {
 	display: flex;
 }
 
+.popup-slider__content {}
+
 .popup-slider__big-img {
 	height: 200%;
 }
@@ -461,6 +463,7 @@ section {
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+	z-index: 5000;
 }
 
 .exit-btn:hover {

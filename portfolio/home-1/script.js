@@ -44,6 +44,7 @@ $(document).ready(function(){
 		      settings: {
 		      	dots:true,
 		        arrows:false,
+		        centerMode: true,
 		        appendDotsto: $('.portfolio-container'),
 		        variableWidth: true,
 		        swipe: true,

@@ -607,6 +607,7 @@ section {
 	position: absolute;
 	top: 60px;
 	z-index: 1000;
+	display: none;
 }
 .slider-btn__img {
 	width: 100%;	
@@ -939,6 +940,10 @@ footer {
 		font-size: 40px;
 		letter-spacing: 14px;
 		margin: 0;
+	}
+
+	.slider-btn {
+		display: block;
 	}
 
 	.slider .slick-slide {

@@ -313,27 +313,27 @@ section {
 }
 
 .slider-item_1 {
-	background-image: url(../img/port-2.png);
+	background-image: url(img/port-2.png);
 }
 
 .slider-item_2 {
-	background-image: url(../img/body-bg.png);
+	background-image: url(img/body-bg.png);
 }
 
 .slider-item_3 {
-	background-image: url(../img/plan-bg.png);
+	background-image: url(img/plan-bg.png);
 }
 
 .slider-item_4 {
-	background-image: url(../img/hunger-bg.png);
+	background-image: url(img/hunger-bg.png);
 }
 
 .slider-item_5 {
-	background-image: url(../img/xbox-bg.png);
+	background-image: url(img/xbox-bg.png);
 }
 
 .slider-item_6 {
-	background-image: url(../img/book-bg.png);
+	background-image: url(img/book-bg.png);
 }
 
 .slider-item__hover{
@@ -553,11 +553,11 @@ section {
 }
 /* Стрелка влево */
 .slider .slick-arrow.slick-prev{
-	background: url(../img/arrow-l.svg) center / 100% no-repeat;
+	background: url(img/arrow-l.svg) center / 100% no-repeat;
 }
 /* Стрелка вправо */
 .slider .slick-arrow.slick-next{
-	background: url(../img/arrow-r.svg) center / 100% no-repeat;
+	background: url(img/arrow-r.svg) center / 100% no-repeat;
 }
 
 .slider .slick-prev:active {
